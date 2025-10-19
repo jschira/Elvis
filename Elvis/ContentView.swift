@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var message = "Message"
-    @State private var imageName = "lightbulb"
+    @State private var message = ""
+    @State private var imageName = ""
     
     var body: some View {
         VStack {
@@ -38,7 +38,7 @@ struct ContentView: View {
                     imageName = "heart"
                 }
                 Button("Understaning") {
-                    message = "Understaning"
+                    message = "Understanding"
                     imageName = "lightbulb"
                 }
             }
